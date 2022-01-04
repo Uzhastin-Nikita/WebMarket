@@ -1,0 +1,16 @@
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+form[name="search"] {
+	float: center;
+}
+
+form[name="registration"] {
+	float: right;
+}
