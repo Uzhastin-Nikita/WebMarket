@@ -23,6 +23,13 @@ form[name="registration"] {
 .rectangle {
 	width: 120px;
 	height: 50px;
-	background: red;
+	background: rgb(186, 23, 23);
+    float: right;
+}
+
+.auto-rectangle {
+    width: 120px;
+	height: 50px;
+	background: rgb(76, 76, 160);
     float: right;
 }
