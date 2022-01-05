@@ -12,5 +12,17 @@ form[name="search"] {
 }
 
 form[name="registration"] {
-	float: right;
+    display: inline-block;
+	height: 50px;
+    line-height: 50px;
+    position: relative;
+    border: 1px solid white;
+    padding: 0 1rem;
+}
+
+.rectangle {
+	width: 120px;
+	height: 50px;
+	background: red;
+    float: right;
 }
