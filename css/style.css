@@ -30,7 +30,7 @@ form[name="registration"] {
 .auto-rectangle {
     width: 120px;
 	height: 50px;
-	background: rgb(76, 76, 160);
+	background: #29c5e6;
     float: right;
 }
 
@@ -90,4 +90,56 @@ section {
 
 .aside-menu a {
 	color: #8f8f8f;
+}
+
+blockquote {
+	margin: 0;
+	background: #29c5e6;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+blockquote p {
+	color: #fff;
+	font-style: italic;
+	font-size: 33px;
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: #1d8ea6;
+	margin: 0;
+	text-align: right;
+}
+
+section > h2 {
+	background: #29c5e6;
+	font: 30px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 0 10px;
+	margin: 30px 0 0 0;
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure div {
+	font-size: 14px;
+	color: #29c5e6;
+}
+
+.team-row figure {
+	margin-top: 20px;
+}
+
+.team-row figure + figure {
+	margin-left: 43px;
 }
