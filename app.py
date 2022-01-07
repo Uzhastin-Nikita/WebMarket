@@ -17,14 +17,12 @@ def autorize():
 @app.route('/verify', methods = ['POST', 'GET'])
 def registration_verify():
     if request.method == 'POST':
-        name = request.form['name']
         return redirect("/registration")
 
 @app.route('/verify', methods = ['POST', 'GET'])
 def autorize_verify():
     if request.method == 'POST':
-        name = request.form['name']
-        return redirect("/autorize")
+        return redirect("/index_autorize")
 
 
 if __name__ == "__main__":

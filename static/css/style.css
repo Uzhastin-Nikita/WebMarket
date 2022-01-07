@@ -25,6 +25,7 @@ form[name="registration"] {
 	height: 50px;
 	background: rgb(186, 23, 23);
     float: right;
+	margin-left: 5px;
 }
 
 .autorize {
