@@ -27,6 +27,13 @@ form[name="registration"] {
     float: right;
 }
 
+.autorize {
+	width: 120px;
+	height: 50px;
+	background: rgb(43, 184, 78);
+    float: right;
+}
+
 .auto-rectangle {
     width: 120px;
 	height: 50px;
