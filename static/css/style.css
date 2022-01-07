@@ -30,7 +30,7 @@ form[name="registration"] {
 .auto-rectangle {
     width: 120px;
 	height: 50px;
-	background: #29c5e6;
+	background: rgb(66,165,255);
     float: right;
 }
 
@@ -145,7 +145,7 @@ figure div {
 }
 
 b {
-    color: #29c5e6;
+    color: rgb(66,165,255);
 }
 
 .product-wrapper {
