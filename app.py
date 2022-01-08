@@ -18,6 +18,10 @@ def autorize():
 def elect():
     return render_template("elect.html")
 
+@app.route('/techinck')
+def techinck():
+    return render_template("techinck.html")
+
 @app.route('/verify', methods = ['POST', 'GET'])
 def registration_verify():
     if request.method == 'POST':
@@ -32,6 +36,12 @@ def autorize_verify():
 def elect_verify():
     if request.method == 'POST':
         return redirect("/elect")
+
+@app.route('/verify', methods = ['POST', 'GET'])
+def techinck_verify():
+    if request.method == 'POST':
+        return redirect("/techinck")
+
 
 
 if __name__ == "__main__":
