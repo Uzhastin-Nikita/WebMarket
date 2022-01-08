@@ -22,6 +22,10 @@ def elect():
 def techinck():
     return render_template("techinck.html")
 
+@app.route('/clothes')
+def clothes():
+    return render_template("clothes.html")
+
 @app.route('/verify', methods = ['POST', 'GET'])
 def registration_verify():
     if request.method == 'POST':
@@ -41,6 +45,11 @@ def elect_verify():
 def techinck_verify():
     if request.method == 'POST':
         return redirect("/techinck")
+
+@app.route('/verify', methods = ['POST', 'GET'])
+def clothes_verify():
+    if request.method == 'POST':
+        return redirect("/clothes")
 
 
 
