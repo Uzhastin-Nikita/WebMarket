@@ -20,7 +20,9 @@
         </div>
         <div class="group">
             <label for="">Email</label>
-            <input type="text">
+            <input type="text"
+            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            required>
         </div>
         <div class="group">
             <button><a href="/autorize">Регистрация</a></button>
