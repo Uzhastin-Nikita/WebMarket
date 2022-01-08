@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reg.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1 title="Форма Авторизации">Авторизация</h1>
+        <div class="grop">
+            <label for="">ФИО</label>
+            <input type="text">
+        </div>
+        <div class="group">
+            <label for="">Телефон</label>
+            <input type="text">
+        </div>
+        <div class="group">
+            <label for="">Email</label>
+            <input type="text"
+            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            required>
+        </div>
+        <div class="group">
+            <button><a href="/autorize">Авторизация</a></button>
+        </div>
+        <div class="group"><a href="/registration">Не проходили Регистрацию? Регистрируйтесь!</a></div>
+    </form>
+</body>
+</html>
