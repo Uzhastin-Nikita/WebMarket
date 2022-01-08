@@ -73,6 +73,15 @@ def autorize_form_verify():
     if request.method == 'POST':
         return redirect("/autorize_form")
 
+@app.route('/homeandgargen')
+def homeandgargen():
+    return render_template("homeandgargen.html")
+
+
+@app.route('/verify', methods = ['POST', 'GET'])
+def homeandgargen_verify():
+    if request.method == 'POST':
+        return redirect("/homeandgargen")
 
 
 if __name__ == "__main__":
