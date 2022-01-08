@@ -14,6 +14,10 @@ def registration():
 def autorize():
     return render_template("index_autorize.html")
 
+@app.route('/elect')
+def elect():
+    return render_template("elect.html")
+
 @app.route('/verify', methods = ['POST', 'GET'])
 def registration_verify():
     if request.method == 'POST':
@@ -23,6 +27,11 @@ def registration_verify():
 def autorize_verify():
     if request.method == 'POST':
         return redirect("/index_autorize")
+
+@app.route('/verify', methods = ['POST', 'GET'])
+def elect_verify():
+    if request.method == 'POST':
+        return redirect("/elect")
 
 
 if __name__ == "__main__":
