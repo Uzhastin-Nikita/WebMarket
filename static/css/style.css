@@ -325,7 +325,10 @@ transition: all 250ms ease-in-out 0s;
 	height: 30px;
 	background: rgb(245, 15, 15);
 	text-align: center;
+	border-radius: 15px;
 	opacity: .5;
+	margin-bottom: 10px;
+	margin-top: 5px;
 }
 
 .favourites:hover {
